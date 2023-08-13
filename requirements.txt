@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn==1.2.1
+seaborn
+matplotlib
+pillow
+Flask
+gunicorn
+uvicorn
+fastapi
