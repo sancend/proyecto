@@ -9,7 +9,7 @@ def solicitud_API(muestra: list):
     
     # Datos de entrada
     data = {
-        "data": [muestra]
+        "data": muestra
     }
     
     #Realizar la solicitud POST a la API
