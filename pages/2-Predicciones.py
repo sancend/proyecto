@@ -5,7 +5,7 @@ import requests
 
 def solicitud_API(muestra: list):
     #URL de la API
-    url = 'http://127.0.0.1:8000/predict'
+    urlApi = 'http://127.0.0.1:8000/predict'
     
     # Datos de entrada
     data = {
@@ -13,7 +13,7 @@ def solicitud_API(muestra: list):
     }
     
     #Realizar la solicitud POST a la API
-    response = requests.post(url, json=data)
+    response = requests.post(urlApi, json=data)
     
     # Verificar el código de estado de la respuesta
     if response.status_code == 200:
