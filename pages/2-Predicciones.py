@@ -5,7 +5,8 @@ import requests
 
 def solicitud_API(muestra: list):
     #URL de la API
-    urlApi = 'http://127.0.0.1:8000/predict'
+    #urlApi = 'http://127.0.0.1:8000/predict'
+    urlApi = 'https://predictenfermedadcorazon.azurewebsites.net/predict'
     
     # Datos de entrada
     data = {
